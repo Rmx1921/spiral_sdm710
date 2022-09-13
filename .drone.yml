@@ -1,7 +1,7 @@
 ---
 kind: pipeline
 type: docker
-name: android_kernel_realme_RMX1921_ksb5
+name: spiral_sdm710
 
 platform:
   os: linux
