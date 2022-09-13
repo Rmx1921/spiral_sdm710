@@ -1,5 +1,7 @@
+---
 kind: pipeline
-name: kernel_realme_sdm710
+type: docker
+name: android_kernel_realme_RMX1921_ksb5
 
 platform:
   os: linux
