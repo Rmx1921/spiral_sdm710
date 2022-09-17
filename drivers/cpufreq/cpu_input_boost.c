@@ -257,12 +257,12 @@ static int cpu_notifier_cb(struct notifier_block *nb, unsigned long action,
 	/* Boost CPU to max frequency for max boost */
 	if (test_bit(MAX_BOOST, &b->state)) {
 		policy->min = get_max_boost_freq(policy);
-		update_stune_boost(b, stune_boost);
+		update_sched_boost(b, stune_boost);
 		return NOTIFY_OK;
 	}
 
 	if (test_bit(INPUT_BOOST, &b->state))
-		update_stune_boost(b, stune_boost);
+		update_sched_boost(b, stune_boost);
 	else
 		clear_stune_boost(b);
 
