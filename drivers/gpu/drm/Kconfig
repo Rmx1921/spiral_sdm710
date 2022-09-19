@@ -313,7 +313,7 @@ config DRM_SAVAGE
 
 endif # DRM_LEGACY
 
-nfig DRM_FRAME_BOOST_TIMEOUT
+config DRM_FRAME_BOOST_TIMEOUT
 	int "Post-input frame boost timeout"
 	depends on CPU_INPUT_BOOST
 	default "3250"
