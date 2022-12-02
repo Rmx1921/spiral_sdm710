@@ -1,8 +1,8 @@
 version: 2.1
 jobs:
-  build:
-    docker:
-      - image: cimg/base:current
+  compile:
+   docker:
+      - image: ubuntu:20.04
     resource_class: xlarge
    steps:
       - run:
