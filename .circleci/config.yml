@@ -1,6 +1,6 @@
 version: 2.1
 jobs:
-  compile:
+  build: kernel
    docker:
       - image: ubuntu:20.04
    steps:
