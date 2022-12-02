@@ -14,7 +14,7 @@ jobs:
            git clone https://github.com/Rmx1921/spiral_sdm710.git
            git clone https://github.com/kdrag0n/proton-clang.git --depth=1
            pip3 install -r requirements.txt   
-           python3 ci_build.py --build --tele-notifier --tele-check --verbose --tele-tz Asia/Kolkata
+           python3 ci_build.py --build --tele-notifier --tele-check --verbose --tele-tz Asia/Jakarta
 workflows:
   version: 2.1
   cooking:
