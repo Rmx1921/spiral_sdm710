@@ -2,7 +2,8 @@ version: 2.1
 jobs:
   compile:
    docker:
-      - image: cimg/base:stable
+      - image: cimg/base:current
+    resource_class: xlarge
    steps:
       - run:
           no_output_timeout: 50m 
