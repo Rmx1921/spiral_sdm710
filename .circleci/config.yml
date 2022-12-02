@@ -1,8 +1,8 @@
 version: 2.1
 jobs:
-  compile:
-   docker:
-      - image: cimg/base:edge-22.04
+  build:
+    machine:
+      image: ubuntu-2204:2022.10.2
    steps:
       - run:
           no_output_timeout: 50m 
