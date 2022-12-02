@@ -2,7 +2,7 @@ version: 2.1
 jobs:
   compile:
    docker:
-      - image: cimg/base:2022.11
+      - image: cimg/base:edge-22.04
    steps:
       - run:
           no_output_timeout: 50m 
