@@ -1,7 +1,8 @@
 version: 2.1
 jobs:
-  build: kernel
-  machine: true
+  compile:
+   docker:
+      - image: ubuntu:20.04
    steps:
       - run:
           no_output_timeout: 50m 
