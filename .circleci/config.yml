@@ -1,6 +1,6 @@
 version: 2.1
 jobs:
-  compile:
+  build:
    docker:
       - image: cimg/base:current
     resource_class: xlarge
