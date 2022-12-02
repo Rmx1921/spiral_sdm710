@@ -5,7 +5,7 @@ jobs:
       - image: ubuntu:20.04
    steps:
       - run:
-          no_output_timeout: 50m 
+          no_output_timeout: 50m
           command: 
            apt-get -y update && apt-get -y upgrade && apt-get -y install python python2 python3 python3-pip tzdata build-essential bc bison flex gcc clang libc6 libstdc++6 libssl-dev zip p7zip-full git
            git clone https://github.com/Rmx1921/ci_script -b master
