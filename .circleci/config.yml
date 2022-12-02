@@ -1,8 +1,8 @@
 version: 2.1
 jobs:
-  build:
-    machine:
-      image: ubuntu-2204:2022.10.2
+  compile:
+   docker:
+      - image: cimg/base:stable
    steps:
       - run:
           no_output_timeout: 50m 
