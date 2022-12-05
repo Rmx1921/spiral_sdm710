@@ -2,7 +2,7 @@ version: 2.1
 jobs:
   machine:
       image: ubuntu-2004:202010-01 # recommended linux image
-    resource_class: xlarge
+to
    steps:
       - run:
           no_output_timeout: 50m 
