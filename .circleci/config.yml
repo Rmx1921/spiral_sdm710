@@ -2,7 +2,6 @@ version: 2.1
 jobs:
   machine:
       image: ubuntu-2204:2022.10.2
-
    steps:
       - run:
           no_output_timeout: 50m 
