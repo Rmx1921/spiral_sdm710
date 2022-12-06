@@ -11,5 +11,4 @@ jobs:
       - run : git clone https://github.com/Rmx1921/Anykernel
       - run : git clone https://github.com/Rmx1921/kernel_realme_sdm710.git
       - run : git clone https://github.com/kdrag0n/proton-clang --depth=1
-   
-           bash ci_build.sh
+      - run : bash ci_build.sh
