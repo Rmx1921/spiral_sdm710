@@ -6,14 +6,5 @@ jobs:
       resource_class: large
     steps:
       - run : sudo apt-get -y update && sudo apt-get -y install curl python2 python3 python3-pip tzdata build-essential bc bison flex gcc clang libc6 libstdc++6 libssl-dev zip p7zip-full git
-      - run : git clone https://github.com/Rmx1921/ci_script -b wip
-      - run : git clone https://github.com/Rmx1921/Anykernel
-      - run : git clone https://github.com/Rmx1921/kernel_realme_sdm710.git
-      - run : git clone https://github.com/kdrag0n/proton-clang --depth=1
-      - run : mv kernel_realme_sdm710 ci_script
-      - run : mv proton-clang ci_script
-      - run : mv Anykernel ci_script
-      - run : cd ci_script && ls && pwd && bash ci_build.sh
-      #- run : ls
-      #- run : pwd
-      #- run : bash ci_build.sh
+      - run : git clone https://github.com/Rmx1921/ci_script -b wip && git clone https://github.com/Rmx1921/Anykernel && git clone https://github.com/Rmx1921/kernel_realme_sdm710.git && git clone https://github.com/kdrag0n/proton-clang --depth=1
+      - run : pwd
